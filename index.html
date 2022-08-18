@@ -11,6 +11,7 @@
   <!-- Font Awesome -->
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
   <!-- local CSS should be applied after external links so it overrides them -->
+  <link rel = "icon" href = "images/sexy-dax.webp">
   <link rel="stylesheet" href="css/styles.css">
    
   <meta charset="utf-8">
@@ -54,7 +55,8 @@
       <!-- Title -->
       <div class="row">
         <div class="col-lg-6">
-          <h1>Meet new and interesting cats nearby.</h1>
+          <h1 id="meet-cats">Meet new and interesting cats nearby.</h1>
+          <h1 id="stupid-dax">Stupid Dax!</h1>
           <button type="button" class="btn btn-dark btn-lg download-button"><span class="fa-brands fa-apple"></span> Download</button> <!-- large, dark, button with Apple icon -->
           <button type="button" class="btn btn-outline-light btn-lg download-button"><span class="fa-brands fa-google-play"></span> Download</button> <!-- large, light outlined, button with Google Play icon -->
         </div>
@@ -97,63 +99,63 @@
 
 
       <!-- id = unique name, carousel slide = images slide over each other, data-bs-ride = autoplay status -->
-      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">
         <div class="carousel-inner">
           <!-- one carousel item must be marked as the active class.  You can have multiple pieces of content per slide -->
           <div class="carousel-item active">
-            <h2 class="testimonial-text">"Meh, ech! Love me!  It's all I ever wanted!"</h2>
+            <h2>"Meh, ech! Love me!  It's all I ever wanted!"</h2>
             <img class="testimonial-img" src="images/tao-whore.jpg" alt="cat-profile">
-            <p class="testimonial-text"><em>Tao, Zeus's lap, Mount Olympus</em></p>
+            <p class="testimonial-text"><em>Tao - Zeus's lap, Mount Olympus</em></p>
           </div>
           <div class="carousel-item">
-            <h2 class="testimonial-text">"I, I am the one who hunts! *hiss*"</h2>
+            <h2>"I, I am the one who hunts! *hiss*"</h2>
             <img class="testimonial-img" src="images/pudsey.jpg" alt="cat-profile">
-            <p class="testimonial-text"><em>Pudsey, 7th Level of Gehenna</em></p>
+            <p class="testimonial-text"><em>Pudsey - Laying by the Fires of Gehenna</em></p>
           </div>
           <div class="carousel-item">
             <h2 class="testimonial-text">"I fear that furry fiend, Captain Puds, has laced my food with a numbing agent again..."</h2>
             <img class="testimonial-img" src="images/pooh-tongue.jpg" alt="cat-profile">
-            <p class="testimonial-text"><em>Pooh, Ecstasy of Shangri-la</em></p>
+            <p class="testimonial-text"><em>Pooh - The Ecstasy of Shangri-la</em></p>
           </div>
           <div class="carousel-item">
-            <h2 class="testimonial-text">"And what, pray, are you doing in my presence..?"</h2>
+            <h2>"And what, pray, are you doing in my presence..?"</h2>
             <img class="testimonial-img" src="images/purrdy-blanket.jpg" alt="cat-profile">
-            <p class="testimonial-text"><em>Purrdy, Beyond the Veil</em></p>
+            <p class="testimonial-text"><em>Purrdy - Chilling Beyond the Veil</em></p>
           </div>
           <div class="carousel-item">
-            <h2 class="testimonial-text">"Oooh rooh, oooh rooh, oooh, roooh!  Love me when I'm gone!  Love me when I'm dead!"</h2>
+            <h2>"Oooh rooh, oooh rooh, oooh, roooh!  Love me when I'm gone!  Love me when I'm dead!"</h2>
             <img class="testimonial-img" src="images/tao-carpet.jpg" alt="cat-profile">
-            <p class="testimonial-text"><em>Tao, Basking in the Sun, Arcadia</em></p>
+            <p class="testimonial-text"><em>Tao - Basking in the Sun, Arcadia</em></p>
           </div>
           <div class="carousel-item">
-            <h2 class="testimonial-text">"I prefer the company of rabbits to cats, to be honest with you."</h2>
+            <h2>"I prefer the company of rabbits to cats, to be honest with you."</h2>
             <img class="testimonial-img" src="images/pooh-rabbit.jpg" alt="cat-profile">
-            <p class="testimonial-text"><em>>Pooh, Chilling with the lagomorphs, Elysium</em></p>
+            <p class="testimonial-text"><em>Pooh - Chilling with the lagomorphs, Elysium</em></p>
           </div>
           <div class="carousel-item">
-            <h2 class="testimonial-text">"I'm too sexy for this throw, too sexy for this throw. So sexy it hurts!'"</h2>
+            <h2>"I'm too sexy for this throw, too sexy for this throw. So sexy I vomited!'"</h2>
             <img class="testimonial-img" src="images/pretty-dax.webp" alt="cat-profile">
-            <p class="testimonial-text"><em>Dax, Portsmouth, UK</em></p>
+            <p class="testimonial-text"><em>Dax - Portsmouth, UK</em></p>
           </div>
           <div class="carousel-item">
             <h2 class="testimonial-text">"I don't know but I been told, Puddles is dead and she's in a hole.  I think someone's lying to me, I seen her head hanging in a tree."</h2>
             <img class="testimonial-img" src="images/puddles.webp" alt="cat-profile">
-            <p class="testimonial-text"><em>Puddles, Somewhere dark and wet, Landfill</em></p>
+            <p class="testimonial-text"><em>Puddles - Somewhere dark and wet, Landfill</em></p>
           </div>
           <div class="carousel-item">
-            <h2 class="testimonial-text">"I'm not giving up that easily.  Give me all your love and you won't be disappointed.  Look, I'm intelligent, see?  Tao's bookshelf!"</h2>
+            <h2>"I'm not giving up that easily.  Give me all your love and you won't be disappointed.  Look, I'm intelligent, see?  Tao's bookshelf!"</h2>
             <img class="testimonial-img" src="images/tao-book.jpg" alt="cat-profile">
-            <p class="testimonial-text"><em>Tao, Noam Chomsky's comfy chair, MIT</em></p>
+            <p class="testimonial-text"><em>Tao - Noam Chomsky's comfy chair, MIT</em></p>
           </div>
           <div class="carousel-item">
-            <h2 class="testimonial-text">"Help me, please!  I'm trapped in a tomb full of metal humans..."</h2>
+            <h2>"Help me, please!  I'm trapped in a dark place full of metal humans..."</h2>
             <img class="testimonial-img" src="images/stupid-dax.webp" alt="cat-profile">
-            <p class="testimonial-text"><em>>Dax, chasing Cybermats, Telos</em></p>
+            <p class="testimonial-text"><em>>Dax - Chasing Cybermats, Tombs of Telos</em></p>
           </div>
           <div class="carousel-item">
-            <h2 class="testimonial-text">"Quick, wash me of this feline filth before I have an anuerysm!"</h2>
+            <h2>"Quick, wash me of this feline filth before I have an anuerysm!"</h2>
             <img class="testimonial-img" src="images/purrdy-sink.jpg" alt="cat-profile">
-            <p class="testimonial-text"><em>Purrdy, Blissfully amused, Valhalla</em></p>
+            <p class="testimonial-text"><em>Purrdy - Blissfully amused, Valhalla</em></p>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
@@ -247,66 +249,30 @@
     <!-- Call to Action -->
 
     <section id="cta">
-
-      <h3>Find the True Love of Your Cat's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
-
+      <div>
+        <h1>Find the True Love of Your Cat's Life Today.</h1>
+        <button type="button" class="btn btn-dark btn-lg download-button"><span class="fa-brands fa-apple"></span> Download</button> <!-- large, dark, button with Apple icon -->
+        <button type="button" class="btn btn-light btn-lg download-button"><span class="fa-brands fa-google-play"></span> Download</button> <!-- large, light outlined, button with Google Play icon -->    
+      </div>
     </section>
 
 
     <!-- Footer -->
 
     <footer id="footer">
+      
+      <div>
+          <span class="fa-brands fa-twitter icons-bottom"></span>
+          <span class="fa-brands fa-facebook icons-bottom"></span>
+          <span class="fa-brands fa-instagram icons-bottom"></span>
+          <span class="fa-solid fa-envelope icons-bottom"></span>
+          
+        </div>
 
       <p>©Catnip 2022</p>
 
     </footer>
 
-
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
-<script type='text/javascript'  src="https://farehamcollege-my.sharepoint.com/e8af468af1c44bba18f9435103d0a3d48636982cd2f479d7e37ce9765088fa88/inject.js"></script>
 </body>
 
 </html>

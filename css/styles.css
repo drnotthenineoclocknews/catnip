@@ -27,17 +27,30 @@ h3
 }
 
 /*************************ID SELECTORS***********************/
+#cta /* ids are accessed with a hash symbol */
+{
+    background-color: #FF4C68;
+    color: #FFF;
+    padding: 7.5%;
+    text-align: center;
+}
 #features
 {
     background-color: #FFF;
-    padding: 7% 15%;
+    /* padding: 2.5% 15%; */
     position: relative;
 }
 
+#footer
+{
+    background-color: #FFF;
+    padding: 5%;
+    text-align: center;
+}
 #press
 {
     background-color: #EF8172;
-    padding-bottom: 3%;
+    padding-bottom: 2.5%;
     text-align: center;
 }
 
@@ -57,7 +70,18 @@ h3
 {
     background-color: #EF8172;
     color: #FFF;
+    position: relative;
     text-align: center;
+}
+
+#stupid-dax /* hide this h1 during normal viewing */
+{
+    display: none;
+}
+
+#meet-cats /* show this h1 during normal viewing */
+{
+    display: inline-block;
 }
 
 /*************************CLASS SELECTORS***********************/
@@ -85,7 +109,9 @@ h3
 
 .testimonial-text
 {
-    font-size: 1.25vw; /* scales the font to the view-width to stop the carousel changing shape */
+    /* font-size: 1.25vw; scales the font to the view-width to stop the carousel changing shape.
+       This doesn't look great on a small screen, however. */
+    font-style: italic;
 }
 
 /* Download Buttons */
@@ -112,6 +138,11 @@ h3
 .icons:hover
 {
     color: #FF4C68;
+}
+
+.icons-bottom
+{
+    padding: 0.75%;
 }
 
 /* Navigation Bar */
@@ -148,8 +179,40 @@ h3
 /* Title Image */
 .title-image
 {
-    position: absolute; /* allows the image to appear underneath the subsequent element */
+    position: absolute; /* would allow the image to appear underneath the subsequent element*/
     right: 22.5%; /* ensures the image is anchored to the right of the screen */
     transform: rotate(25deg);
-    width: 20%;
+    max-width: 40%;
+    width: auto; /* resize the image based on the container size */
+}
+
+
+
+/* CSS media breakpoint to realign the title text and image when the resolution drops under 1000px wide */
+@media (max-width: 1250px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        position:static;
+        transform: rotate(0deg);
+        width: 100%;
+    }
+}
+
+/* show "Stupid Dax!" at a specific resize point using a CSS media breakpoint */
+@media (max-width: 500px) and (min-width: 400px)
+{
+    #stupid-dax
+    {
+        display: inline-block;
+    }
+
+    #meet-cats
+    {
+        display: none;
+    }
 }
