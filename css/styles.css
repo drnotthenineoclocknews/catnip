@@ -1,0 +1,155 @@
+/* font-family: 'Ubuntu', sans-serif; */
+
+/*************************TAG SELECTORS***********************/
+body
+{
+    font-family: 'Montserrat', sans-serif; 
+}
+h1
+{
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h2
+{
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+h3
+{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/*************************ID SELECTORS***********************/
+#features
+{
+    background-color: #FFF;
+    padding: 7% 15%;
+    position: relative;
+}
+
+#press
+{
+    background-color: #EF8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+
+#title /* ids are accessed with a hash symbol */
+{
+    background-color: #FF4C68;
+    color: #FFF;
+}
+
+#testimonials
+{
+    background-color: #EF8172;
+    color: #FFF;
+    text-align: center;
+}
+
+/*************************CLASS SELECTORS***********************/
+.container-fluid
+{
+    padding: 3% 15% 7%; /* T L/R B */
+}
+
+/* Carousel */
+.carousel-item
+{
+    padding: 5%;
+}
+.press-logos
+{
+    margin: 0px 20px 50px;
+    width: 10%;
+}
+.testimonial-img
+{
+    border-radius: 100%;
+    padding: 2.5%;
+    width: 20%;
+}
+
+.testimonial-text
+{
+    font-size: 1.25vw; /* scales the font to the view-width to stop the carousel changing shape */
+}
+
+/* Download Buttons */
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+
+/* Features Icons */
+.feature-box
+{
+    color: #8f8f8f;
+    padding: 5%;
+    text-align: center;
+}
+
+.icons
+{
+    color: #EF8172;
+    margin-bottom: 1rem;
+    
+}
+
+.icons:hover
+{
+    color: #FF4C68;
+}
+
+/* Navigation Bar */
+.navbar
+{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* Pricing */
+.pricing-column
+{
+    padding: 3% 2%;
+}
+
+/* Title Image */
+.title-image
+{
+    position: absolute; /* allows the image to appear underneath the subsequent element */
+    right: 22.5%; /* ensures the image is anchored to the right of the screen */
+    transform: rotate(25deg);
+    width: 20%;
+}
