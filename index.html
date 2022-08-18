@@ -35,9 +35,9 @@
         <!-- main content of the navbar, excluding branding -->
         <div class="collapse navbar-collapse" id="toggle"> <!-- applies a collapse of the items into a toggle, if required -->
           <ul class="navbar-nav ms-auto"> <!-- first class applies the navbar, the second adds a margin to the start which pushes the text all the way left -->
-            <li class="nav-item"><a class="nav-link" href="#">Contact </a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Pricing </a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Download </a></li>
+            <li class="nav-item"><a class="nav-link" href="#footer">Contact </a></li> <!-- using section ids for the links moves the focus directly to that area --> 
+            <li class="nav-item"><a class="nav-link" href="#pricing">Pricing </a></li> <!-- this also works at the URL level, i.e. you can add the id to the address --> 
+            <li class="nav-item"><a class="nav-link" href="#cta">Download </a></li>
               <!-- comment = dropdown list inside the navbar             -->
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Testimonials</a>
                 <ul class="dropdown-menu">
@@ -60,8 +60,8 @@
           <button type="button" class="btn btn-dark btn-lg download-button"><span class="fa-brands fa-apple"></span> Download</button> <!-- large, dark, button with Apple icon -->
           <button type="button" class="btn btn-outline-light btn-lg download-button"><span class="fa-brands fa-google-play"></span> Download</button> <!-- large, light outlined, button with Google Play icon -->
         </div>
-      <div class="col-lg-6">
-        <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+      <div class="col-lg-6  title-image">
+        <img src="images/iphone6.png" alt="iphone-mockup">
       </div>
 
     </div>
@@ -251,8 +251,8 @@
     <section id="cta">
       <div>
         <h1>Find the True Love of Your Cat's Life Today.</h1>
-        <button type="button" class="btn btn-dark btn-lg download-button"><span class="fa-brands fa-apple"></span> Download</button> <!-- large, dark, button with Apple icon -->
-        <button type="button" class="btn btn-light btn-lg download-button"><span class="fa-brands fa-google-play"></span> Download</button> <!-- large, light outlined, button with Google Play icon -->    
+        <button type="button" class="btn btn-dark btn-lg download-button"><span class="fa-brands fa-apple"></span> Download</button>
+        <button type="button" class="btn btn-light btn-lg download-button"><span class="fa-brands fa-google-play"></span> Download</button>   
       </div>
     </section>
 
